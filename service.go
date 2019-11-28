@@ -69,7 +69,7 @@ func Service (state int, sensor, pass string) (error) {
 
 	// step 130
 	sensorPass := ""
-	errZ := db.QueryRow (sensorCheck, sensor, pass).Scan (&sensorPass)
+	errZ := db.QueryRow (passCheck, sensor, pass).Scan (&sensorPass)
 	
 	// step 140 ..1.. {
 	if errZ != nil && errZ != sql.ErrNoRows {
