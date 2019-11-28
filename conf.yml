@@ -1,0 +1,13 @@
+# When deploying a software that uses function Service (), the following should be done:
+#   copy this file to the directory of the software's executable;
+#   then the conf data in the file should be set, as appropriate.
+
+dbms_user_name: ""  # service dbms username
+dbms_user_pass: ""  # service dbms password
+conn_timeout: 0     # maximum duration that could be spent trying to connect.
+        # Unit: second. Min value: 1; max value: 960
+wrte_timeout: 0     # maximum duration that could be spent writing a data.
+        # Unit: second. Min value: 1; max value: 960
+read_timeout: 0     # maximum duration that could be spent reading a data.
+        # Unit: second. Min value: 1; max value: 960
+dbms_pub_key: ""    # dbms pub key filepath. Relative and absolute path supported.
