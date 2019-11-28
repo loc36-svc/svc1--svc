@@ -18,6 +18,7 @@ import (
 	"io/ioutil"
 	"net/url"
 	"os"
+	"strings"
 	"time"
 )
 func init () {
@@ -97,7 +98,7 @@ func Service (state int, sensor, pass string) (error) {
 
 		timePart := jodaTime.Format ("yyyy-MM-dd-HH-mm-ss-", time.Now ())
 
-		return timePart + randStr, nil
+		return timePart + strings.ToLower (randStr), nil
 	}
 	// ..2.. }
 
