@@ -199,7 +199,7 @@ func init () {
 		"readTimeout=%ds"
 
 	connURL := fmt.Sprintf (connURLFormat, url.QueryEscape (dbmsUser), url.QueryEscape (userPass),
-		url.QueryEscape ("db.core.loc36.com"), url.QueryEscape ("50001"), connTimeout, writeTimeout, readTimeout)
+		url.QueryEscape ("dbms.core.loc36.com"), url.QueryEscape ("50001"), connTimeout, writeTimeout, readTimeout)
 	// ..1.. }
 
 	// ..1.. {
