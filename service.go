@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"github.com/go-sql-driver/mysql" // ver >= 1.4
 	dbLib "github.com/loc36-core/dbLib" // ver == v0.1
-	"github.com/loc36-svc/svc1--svc--lib" // ver == v0.1
+	"github.com/loc36-svc/svc1-svc1--svc--lib" // ver == v0.1
 	"github.com/nicholoid-dtp/logBook" // ver == v0.1
 	"github.com/nicholoid-lib/str" // ver == v0.1
 	"github.com/qamarian-dtp/err" // ver == v0.4

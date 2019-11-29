@@ -1,4 +1,4 @@
-module github.com/loc36-svc/svc1--svc
+module github.com/loc36-svc/svc1-svc1--svc
 
 go 1.13
 
