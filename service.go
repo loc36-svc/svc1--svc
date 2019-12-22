@@ -120,6 +120,7 @@ func Service (state int, sensor, pass string) (error) {
 		return err.New ("An error occured.", nil, nil)
 	}
 
+
 	errD := dbLib.RecordState (state, recordID, jodaTime.Format ("yyyyMMdd", time.Now ()), jodaTime.Format ("HHmm", time.Now ()), sensor, conn)
 	// ..1.. }
 
